@@ -1,0 +1,90 @@
+@font-face {
+  font-family: MonumentExtendedRegular;
+  src: url(../font/monumentextended-regular.otf);
+}
+
+@font-face {
+  font-family: MonumentExtendedUltrabold;
+  src: url(../font/monumentextended-ultrabold.otf);
+}
+
+body {
+  background-color: #080018;
+  color: #EFEFF1;
+  font-family: MonumentExtendedRegular;
+  justify-content: center;
+}
+
+.h1 {
+  font-size: 48px;
+  font-family: MonumentExtendedUltrabold;
+  text-align: center;
+  margin-bottom: 0px;
+  margin-top: 70px;
+}
+
+.h2 {
+  font-size: 28px;
+  text-align: center;
+  margin-top: 10px;
+}
+
+.creator-grid {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 0px auto;
+  width: 900px;
+}
+
+.creator-info {
+  width: 400px;
+}
+
+img {
+  width: 200px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.creator-name, 
+.creator-nim {
+  font-size: 20px;
+  text-align: center;
+}
+
+.creator-name {
+  margin-bottom: 10px;
+}
+
+.creator-nim {
+  margin-top: 0px;
+  margin-bottom: 50px;
+}
+
+.get-started-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: MonumentExtendedRegular;
+  color: #080018;
+  font-size: 20px;
+  background-image: linear-gradient(to right, #03EFFD , #0192FB);
+  width: 250px;
+  height: 80px;
+  border-radius: 40px;
+  transition: opacity 0.15s;
+  cursor: pointer;
+}
+
+.get-started-btn:hover {
+  opacity: 0.5;
+}
+
+.get-started-btn:active {
+  text-decoration: none;
+}
